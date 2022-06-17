@@ -1,0 +1,19 @@
+{
+  "name": "@clownjs/shared",
+  "version": "0.0.0",
+  "description": "公有包",
+  "author": "UniqueCrownClown",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
+  },
+  "homepage": "https://example.cn/clown",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/UniqueCrownClown/clownjs/issues"
+  }
+}

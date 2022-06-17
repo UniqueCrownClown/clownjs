@@ -1,0 +1,31 @@
+{
+  "name": "@clownjs/animation-dialog",
+  "version": "0.0.0",
+  "description": "Vue动画弹窗组件",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "author": "UniqueCrownClown",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
+  },
+  "homepage": "https://example.cn/clown",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/UniqueCrownClown/clownjs/issues"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  }
+}
