@@ -5,23 +5,28 @@
 
 ## Link
 + <a href="https://github.com/UniqueCrownClown/clownjs" target="_blank">⚡Github</a>
-+ <a href="https://example.cn/clown" target="_blank">📖Document</a>
 + <a href="https://www.npmjs.com/search?q=%40clownjs" target="_blank">💾NPM</a>
 
 ---
 
 ## 组件
-6. **[@clownjs/animation-dialog](https://example.cn/clown/animation-dialog)**  
+1. **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/animation-dialog)**  
 ✨动画模态框Vue3组件
 
-7. **[@clownjs/standard-tabs](https://example.cn/clown/standard-tabs)**  
+2. **[@clownjs/standard-tabs](https://uniquecrownclown.github.io/clownjs/standard-tabs)**  
 ✨移动端标签页Vue3组件
 
-8. **[@clownjs/mouse-menu](https://example.cn/clown/mouse-menu)**  
+3. **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/mouse-menu)**  
 ✨自定义右键菜单Vue3组件
 
-10. **[@clownjs/yaml-edit](https://example.cn/clown/yaml-edit)**  
+4. **[@clownjs/yaml-edit](https://uniquecrownclown.github.io/clownjs/yaml-edit)**  
 ✨yaml编辑Vue3组件
+
+5. **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/resize)**  
+✨通过拖拽更改元素尺寸插件
+
+6. **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
+✨监听元素尺寸变化插件
 ---
 
 ## 开始使用
@@ -57,6 +62,5 @@ npm i -S clownjs
 
 原理是更改`package.json`的main字段指向开发的源文件，而发包的时候再将main字段入口文件指向打包后的`index.js`，后续有可能把这种方式更改为软连接的方式。
 
----
-
-欢迎各种建议反馈与PR，感谢使用。
+### 参考资料
+[howdyjs](https://github.com/leon-kfd/howdyjs)

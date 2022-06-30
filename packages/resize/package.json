@@ -1,7 +1,10 @@
 {
-  "name": "@clownjs/shared",
-  "version": "0.0.1",
-  "description": "公有包",
+  "name": "@clownjs/resize",
+  "version": "0.0.0",
+  "description": "拖拽更改元素尺寸插件",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "author": "UniqueCrownClown",
   "license": "ISC",
   "repository": {
@@ -13,6 +16,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "files": [
+    "dist/*"
+  ],
   "bugs": {
     "url": "https://github.com/UniqueCrownClown/clownjs/issues"
   }

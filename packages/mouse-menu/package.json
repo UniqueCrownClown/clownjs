@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
   },
-  "homepage": "https://example.cn/clown",
+  "homepage": "https://uniquecrownclown.github.io/clownjs",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

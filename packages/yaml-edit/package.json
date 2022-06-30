@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
   },
-  "homepage": "https://example.cn/clown",
+  "homepage": "https://uniquecrownclown.github.io/clownjs",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -23,6 +23,7 @@
     "url": "https://github.com/UniqueCrownClown/clownjs/issues"
   },
   "dependencies": {
+    "element-plus": "^2.2.6",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {

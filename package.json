@@ -34,11 +34,12 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "element-plus": "^2.2.6",
     "highlight.js": "^10.5.0",
     "marked": "^4.0.10",
+    "tslib": "^1.9.3",
     "vue": "^3.0.5",
-    "vue-router": "^4.0.0-0",
-    "tslib": "^1.9.3"
+    "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@types/marked": "^1.2.2",
@@ -53,14 +54,14 @@
     "lerna": "^3.22.1",
     "minimist": "^1.2.5",
     "postcss": "^8.2.4",
+    "resize-observer-polyfill": "^1.5.1",
     "rollup": "^2.36.1",
     "rollup-plugin-postcss": "^4.0.0",
     "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.32.2",
     "typescript": "^4.1.3",
-    "vite": "^2.0.0-beta.65",
-    "resize-observer-polyfill": "^1.5.1"
+    "vite": "^2.0.0-beta.65"
   },
   "repository": {
     "type": "git",
