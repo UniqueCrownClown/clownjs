@@ -1,6 +1,6 @@
 {
   "name": "@clownjs/yaml-edit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yaml文件编辑",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

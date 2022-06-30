@@ -1,6 +1,6 @@
 {
   "name": "@clownjs/standard-tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue3适用于手机端的滑动Tabs组件",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
