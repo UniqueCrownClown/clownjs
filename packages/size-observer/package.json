@@ -1,6 +1,6 @@
 {
   "name": "@clownjs/size-observer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "监听盒子大小变化插件",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
