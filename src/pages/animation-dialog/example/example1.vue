@@ -18,7 +18,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import AnimationDialog from '../../../../packages/animation-dialog';
+// import AnimationDialog from '../../../../packages/animation-dialog';
+import AnimationDialog from '@clownjs/animation-dialog';
 export default defineComponent({
   components: {
     AnimationDialog

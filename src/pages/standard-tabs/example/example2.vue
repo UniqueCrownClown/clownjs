@@ -12,7 +12,8 @@
 
 <script lang="ts">
 import { defineComponent, onMounted, ref } from 'vue';
-import StandardTabs from '../../../../packages/standard-tabs';
+// import StandardTabs from '../../../../packages/standard-tabs';
+import StandardTabs from '@clownjs/standard-tabs';
 export default defineComponent({
   components: {
     StandardTabs

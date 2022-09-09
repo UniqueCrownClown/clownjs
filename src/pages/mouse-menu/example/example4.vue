@@ -8,7 +8,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { MouseMenuDirective } from '../../../../packages/mouse-menu';
+// import { MouseMenuDirective } from '../../../../packages/mouse-menu'; 
+import { MouseMenuDirective } from '@clownjs/mouse-menu';
 export default defineComponent({
   directives: {
     MouseMenu: MouseMenuDirective

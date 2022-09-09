@@ -72,7 +72,7 @@
         <el-col
           v-else
           v-for="(item, index) in value.value"
-          :key="item.desc + '-' + index"
+          :key="index"
           style="border: 1px solid #ccc; margin-bottom: 10px"
         >
           <div style="padding: 10px; position: relative">
@@ -168,7 +168,7 @@ const initData = (defineData: any, yamlData: any) => {
             item[0],
             {
               ...item[1],
-              value: yamlData[item[0]] + "", // 转成string
+              value: yamlData[item[0]].toString(), // 转成string
             },
           ],
         ];

@@ -17,7 +17,7 @@ export default defineComponent({
   },
   setup() {
     return {
-      readme: isProd && !isHashRouterMode ? readme : readme.replace(/https:\/\/example.cn\/clown/g, isHashRouterMode ? './#' : '.')
+      readme: isProd && !isHashRouterMode ? readme : readme.replace(/https:\/\/uniquecrownclown.github.io\/clownjs/g, isHashRouterMode ? './#' : '.')
     };
   }
 });

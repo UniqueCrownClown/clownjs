@@ -23,10 +23,10 @@
     "url": "https://github.com/UniqueCrownClown/clownjs/issues"
   },
   "dependencies": {
-    "element-plus": "^2.2.6",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
-    "vue": ">=3.0.0"
+    "vue": ">=3.2.0",
+    "element-plus": "^2.2.6"
   }
 }

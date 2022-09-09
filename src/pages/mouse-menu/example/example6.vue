@@ -26,7 +26,8 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
-import { MouseMenuDirective } from '../../../../packages/mouse-menu';
+// import { MouseMenuDirective } from '../../../../packages/mouse-menu'; 
+import { MouseMenuDirective } from '@clownjs/mouse-menu';
 import { apiURL } from '../../../global';
 export default defineComponent({
   directives: {

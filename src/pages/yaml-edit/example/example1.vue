@@ -1,13 +1,14 @@
 <template>
   <div class="wrapper">
     <h3>example from yamlEdit:</h3>
-    <yamlEdit :renderData.sync="combineData" ref="clYamlEditRef" />
+    <yamlEdit :renderData.sync="combineData" labelWidth="120px" ref="clYamlEditRef" />
   </div>
 </template>
 
 <script lang="ts">
 import { onMounted, ref, unref, defineComponent } from "vue";
-import YamlEdit from "../../../../packages/yaml-edit/";
+// import YamlEdit from "../../../../packages/yaml-edit/";
+import YamlEdit from "@clownjs/yaml-edit";
 export default defineComponent({
   components: {
     YamlEdit,

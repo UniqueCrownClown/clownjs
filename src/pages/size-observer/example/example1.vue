@@ -10,7 +10,8 @@
 
 <script lang="ts">
 import { ref, defineComponent } from 'vue';
-import { SizeObserverDirective, SizeObserverEvent } from '../../../../packages/size-observer';
+// import { SizeObserverDirective, SizeObserverEvent } from '../../../../packages/size-observer';
+import { SizeObserverDirective, SizeObserverEvent } from '@clownjs/size-observer';
 export default defineComponent({
   directives: {
     SizeObserver: SizeObserverDirective

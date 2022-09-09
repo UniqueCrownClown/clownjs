@@ -12,7 +12,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { ResizeEvent, ResizeDirective } from '../../../../packages/resize';
+// import { ResizeEvent, ResizeDirective } from '../../../../packages/resize'; 
+import { ResizeEvent, ResizeDirective } from '@clownjs/resize'
 export default defineComponent({
   directives: {
     resize: ResizeDirective

@@ -130,7 +130,8 @@
 <script lang="ts">
 import { computed, defineComponent, ref, reactive, PropType, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { ResizeEvent, ResizeDirective } from "../../packages/resize";
+// import { ResizeEvent, ResizeDirective } from "../../packages/resize";
+import { ResizeEvent, ResizeDirective } from '@clownjs/resize'
 interface Example {
   name: string;
   introduce: string;
@@ -146,7 +147,7 @@ export default defineComponent({
       default: "",
     },
     readmeList: {
-      type: Array,
+      type: Array as PropType<Record<string,any>[]> ,
       default: () => [],
     },
     exampleList: {
@@ -270,28 +271,23 @@ export default defineComponent({
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    padding-left: 50px;
     &:after {
       content: "";
       position: absolute;
       bottom: 0;
-      width: 30px;
+      width: 40px;
       left: 0;
       border-top: 2px solid #5b9df3;
     }
     .back {
       position: absolute;
-      opacity: 0;
       width: 18px;
       height: 18px;
-      left: 0;
+      left: 10px;
       top: calc(50% - 9px);
       transition: all 0.4s ease-in-out;
-    }
-    &:hover {
-      padding-left: 20px;
-      .back {
-        opacity: 1;
-      }
+      opacity: 1;
     }
   }
   #moduleName {

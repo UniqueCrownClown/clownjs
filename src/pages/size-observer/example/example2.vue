@@ -1,29 +1,29 @@
 <template>
   <div class="wrapper">
     <div v-size-observer="options" class="box" @sizechange="handleSizeChange">
-      <p class="tips">
-        Delay: 1s, Immediate: false
-      </p>
-      <p class="text">
-        {{ width }} &times; {{ height }}
-      </p>
+      <p class="tips">Delay: 1s, Immediate: false</p>
+      <p class="text">{{ width }} &times; {{ height }}</p>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, Ref, ObjectDirective } from 'vue';
-import { SizeObserverDirective, SizeObserverEvent } from '../../../../packages/size-observer';
+import { ref, defineComponent, Ref, ObjectDirective } from "vue";
+// import { SizeObserverDirective, SizeObserverEvent } from '../../../../packages/size-observer';
+import {
+  SizeObserverDirective,
+  SizeObserverEvent,
+} from "@clownjs/size-observer";
 export default defineComponent({
   directives: {
-    SizeObserver: SizeObserverDirective as ObjectDirective
+    SizeObserver: SizeObserverDirective as ObjectDirective,
   },
   setup() {
-    const width: Ref<string|number> = ref('?');
-    const height: Ref<string|number> = ref('?');
+    const width: Ref<string | number> = ref("?");
+    const height: Ref<string | number> = ref("?");
     const options = {
       wait: 1000,
-      immediate: false
+      immediate: false,
     };
     const handleSizeChange = (e: SizeObserverEvent) => {
       const { contentRect } = e;
@@ -32,9 +32,12 @@ export default defineComponent({
       height.value = ~~_height;
     };
     return {
-      width,height,options,handleSizeChange
+      width,
+      height,
+      options,
+      handleSizeChange,
     };
-  }
+  },
 });
 </script>
 
