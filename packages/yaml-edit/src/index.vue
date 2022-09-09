@@ -299,7 +299,7 @@ const props = withDefaults(
     labelWidth: string;
   }>(),
   {
-    renderData: () => ({ apple: "2" }),
+    renderData: () => ({ test: "2" }),
     isEdit: () => true,
     labelWidth: () => "100px",
   }
