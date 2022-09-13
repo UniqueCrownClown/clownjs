@@ -39,7 +39,6 @@
     "@clownjs/resize": "^0.0.1",
     "@clownjs/shared": "^0.0.1",
     "@clownjs/size-observer": "^0.0.1",
-    "@clownjs/standard-tabs": "^0.0.1",
     "@clownjs/yaml-edit": "^0.0.1",
     "animate.css": "^4.1.1",
     "element-plus": "^2.2.16",

@@ -13,8 +13,8 @@ _A universal component packages of javascript plugins or tools_
 1. **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/animation-dialog)**  
    ✨ 动画模态框 Vue3 组件
 
-2. **[@clownjs/standard-tabs](https://uniquecrownclown.github.io/clownjs/standard-tabs)**  
-   ✨ 移动端标签页 Vue3 组件
+2. **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
+   ✨ 监听元素尺寸变化插件
 
 3. **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/mouse-menu)**  
    ✨ 自定义右键菜单 Vue3 组件
@@ -24,9 +24,6 @@ _A universal component packages of javascript plugins or tools_
 
 5. **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/resize)**  
    ✨ 通过拖拽更改元素尺寸插件
-
-6. **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
-   ✨ 监听元素尺寸变化插件
 
 ---
 
