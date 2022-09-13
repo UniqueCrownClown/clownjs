@@ -46,7 +46,7 @@ if (name) {
     "package.json",
     `
   {
-    "name": "@clownjs/helloworld",
+    "name": "@clownjs/${name}",
     "version": "0.0.1",
     "description": "",
     "author": "UniqueCrownClown",

@@ -10,9 +10,7 @@
     "vue",
     "vue directive",
     "vite",
-    "img zoom",
-    "mouse menu",
-    "drag"
+    "mouse menu"
   ],
   "licence": "MIT",
   "scripts": {
@@ -31,15 +29,10 @@
     "example:hash": "npm run vue-to-md && cross-env VITE_ROUTER_MODE=hash vite",
     "build:hash": "npm run vue-to-md && cross-env VITE_ROUTER_MODE=hash vite build",
     "publish": "lerna publish",
-    "gen": "node ./scripts/gen-component.js"
+    "gen": "node ./scripts/gen-component.js",
+    "batch-link": "node ./scripts/batch-link.js"
   },
   "dependencies": {
-    "@clownjs/animation-dialog": "^0.0.1",
-    "@clownjs/mouse-menu": "^0.0.1",
-    "@clownjs/resize": "^0.0.1",
-    "@clownjs/shared": "^0.0.1",
-    "@clownjs/size-observer": "^0.0.1",
-    "@clownjs/yaml-edit": "^0.0.1",
     "animate.css": "^4.1.1",
     "element-plus": "^2.2.16",
     "highlight.js": "^10.7.3",
