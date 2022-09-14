@@ -1,6 +1,6 @@
 {
   "name": "clownjs",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "A universal component packages of javascript plugins or tools",
   "author": {
     "name": "UniqueCrownClown"

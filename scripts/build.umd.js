@@ -11,11 +11,10 @@ walkPackageDirs((dirName) => {
       file: `./packages/${dirName}/dist/index.umd.js`,
       format: 'umd',
       exports:'named',
-      name: `Howdy${toCamelCase(dirName)}`,
+      name: `clown-${toCamelCase(dirName)}`,
       globals: {
         'resize-observer-polyfill': 'ResizeObserver',
-        'vue': 'Vue',
-        '@clownjs/to-drag': 'HowdyToDrag'
+        'vue': 'Vue'
       }
     },
     external: id => ['resize-observer-polyfill', 'vue'].includes(id) || id.includes('@clownjs')
