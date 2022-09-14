@@ -22,9 +22,6 @@ jobs:
       - name: Bootstrap
         run: yarn bootstrap
 
-      - name: Build Pkgs
-        run: yarn build:pkg
-
       - name: Build Example
         run: yarn build:hash
 
