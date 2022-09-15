@@ -29,7 +29,7 @@ resizeObserve.init();
 ```
 
 + UMD CDN: <a href="https://unpkg.com/@clownjs/size-observer/dist/index.umd.js" target="_blank">https://unpkg.com/@clownjs/size-observer/dist/index.umd.js</a>
-+ UMD Name: `HowdySizeObserver`
++ UMD Name: `clown-SizeObserver`
 + UMD Example: <a href="https://codepen.io/UniqueCrownClown/pen/zYNOKpX" target="_blank">Click Here</a>
 
 ### Options (Objcet)

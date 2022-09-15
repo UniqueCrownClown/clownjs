@@ -174,7 +174,7 @@ if (name) {
   inSertBefore({
     target: path.join(__dirname, `./../`),
     fileName: "README.md",
-    appendText: `- **[@clownjs/${name}](https://uniquecrownclown.github.io/clownjs/${name})**  \r\n\r\n`,
+    appendText: `- **[@clownjs/${name}](https://uniquecrownclown.github.io/clownjs/${name})**  \r\n\r\n关于${name}包的功能描述\r\n\r\n`,
     matchMode: "---\r\n\r\n## 开始使用",
   });
 }

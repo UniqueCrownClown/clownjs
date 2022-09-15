@@ -10,20 +10,20 @@ _A universal component packages of javascript plugins or tools_
 
 ## 组件
 
-1. **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/animation-dialog)**  
-   ✨ 动画模态框 Vue3 组件
+- **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/animation-dialog)**  
+  动画模态框 Vue3 组件
 
-2. **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
-   ✨ 监听元素尺寸变化插件
+- **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
+  监听元素尺寸变化插件
 
-3. **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/mouse-menu)**  
-   ✨ 自定义右键菜单 Vue3 组件
+- **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/mouse-menu)**  
+  自定义右键菜单 Vue3 组件
 
-4. **[@clownjs/yaml-edit](https://uniquecrownclown.github.io/clownjs/yaml-edit)**  
-   ✨yaml 编辑 Vue3 组件
+- **[@clownjs/yaml-edit](https://uniquecrownclown.github.io/clownjs/yaml-edit)**  
+  yaml 编辑 Vue3 组件
 
-5. **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/resize)**  
-   ✨ 通过拖拽更改元素尺寸插件
+- **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/resize)**  
+  通过拖拽更改元素尺寸插件
 
 ---
 
@@ -68,9 +68,18 @@ npm i -S @clownjs/XXX
 在对应的 packages 目录下执行 npm link
 在项目根目录下执行 npm link @clownjs/ + packageName 即可生成对应的软链接
 
-直接执行 npm run example 即可进行所有组件的调试
+```shell
+# 批量关联本地npm包
+npm run batch-link
+```
 
-3. 创建新的组件包
+3. 组件包预览调试
+
+```shell
+npm run example
+```
+
+4. 创建新的组件包
 
 ```shell
 npm run gen -- --name=name

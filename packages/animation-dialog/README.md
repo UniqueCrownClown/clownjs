@@ -51,4 +51,4 @@
 |title|Dialog标题|
 |footer|Dialog页脚|
 
-> Package umd name: `HowdyAnimationDialog`
+> Package umd name: `clown-AnimationDialog`

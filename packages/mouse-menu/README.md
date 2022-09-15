@@ -189,6 +189,6 @@ export default {
 }
 ```
 
-+ UMD Name: `HowdyMouseMenu`
++ UMD Name: `clown-MouseMenu`
 + Example in `ElementPlusTable`: <a href="https://codepen.io/UniqueCrownClown/pen/yLMKPOP" target="_blank">Demo</a>
 
