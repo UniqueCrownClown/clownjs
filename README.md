@@ -10,19 +10,19 @@ _A universal component packages of javascript plugins or tools_
 
 ## 组件
 
-- **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/animation-dialog)**  
+- **[@clownjs/animation-dialog](https://uniquecrownclown.github.io/clownjs/#/animation-dialog)**  
   动画模态框 Vue3 组件
 
-- **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/size-observer)**  
+- **[@clownjs/size-observer](https://uniquecrownclown.github.io/clownjs/#/size-observer)**  
   监听元素尺寸变化插件
 
-- **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/mouse-menu)**  
+- **[@clownjs/mouse-menu](https://uniquecrownclown.github.io/clownjs/#/mouse-menu)**  
   自定义右键菜单 Vue3 组件
 
-- **[@clownjs/yaml-edit](https://uniquecrownclown.github.io/clownjs/yaml-edit)**  
+- **[@clownjs/yaml-edit](https://uniquecrownclown.github.io/clownjs/#/yaml-edit)**  
   yaml 编辑 Vue3 组件
 
-- **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/resize)**  
+- **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/#/resize)**  
   通过拖拽更改元素尺寸插件
 
 ---
