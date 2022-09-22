@@ -82,7 +82,7 @@ npm run example
 4. 创建新的组件包
 
 ```shell
-npm run gen -- --name=name
+npm run gen
 ```
 
 ### 参考资料
