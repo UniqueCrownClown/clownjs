@@ -1,4 +1,4 @@
-import{R as o}from"./ReadmeFrame.ef857043.js";import{_ as a,d as s,r as l,o as i,g as r,m as c}from"./index.f1855672.js";var p=`<p><strong>\u4E00\u4E2A\u5305\u542B Javascript \u63D2\u4EF6\u3001Vue3 \u7EC4\u4EF6\u3001Vue3 \u6307\u4EE4\u7684\u8F7B\u91CF\u5DE5\u5177\u7EC4\u4EF6\u5E93</strong><br><em>A universal component packages of javascript plugins or tools</em></p>
+import{R as o}from"./ReadmeFrame.58c5fdb2.js";import{_ as a,d as l,r as s,o as i,g as r,m as c}from"./index.0484a9b8.js";var p=`<p><strong>\u4E00\u4E2A\u5305\u542B Javascript \u63D2\u4EF6\u3001Vue3 \u7EC4\u4EF6\u3001Vue3 \u6307\u4EE4\u7684\u8F7B\u91CF\u5DE5\u5177\u7EC4\u4EF6\u5E93</strong><br><em>A universal component packages of javascript plugins or tools</em></p>
 <h2 id="link">Link</h2>
 <ul>
 <li><a href="https://github.com/UniqueCrownClown/clownjs" target="_blank">\u26A1Github</a></li>
@@ -63,8 +63,8 @@ npm <span class="hljs-builtin-name">run</span> batch-link
 <ol start="4">
 <li>\u521B\u5EFA\u65B0\u7684\u7EC4\u4EF6\u5305</li>
 </ol>
-<pre><code class="language-shell">npm <span class="hljs-builtin-name">run</span> gen -- <span class="hljs-attribute">--name</span>=name
+<pre><code class="language-shell">npm <span class="hljs-builtin-name">run</span> gen
 </code></pre>
 <h3 id="\u53C2\u8003\u8D44\u6599">\u53C2\u8003\u8D44\u6599</h3>
 <p><a href="https://github.com/leon-kfd/howdyjs">howdyjs</a></p>
-`;const t=s({name:"Home",components:{ReadmeFrame:o},setup(){return{readme:p.replace(/https:\/\/uniquecrownclown.github.io\/clownjs/g,"./#")}}}),u={id:"Home"};function m(n,d,h,g,w,j){const e=l("readme-frame");return i(),r("div",u,[c(e,{readme:n.readme},null,8,["readme"])])}var f=a(t,[["render",m]]);export{f as default};
+`;const t=l({name:"Home",components:{ReadmeFrame:o},setup(){return{readme:p.replace(/https:\/\/uniquecrownclown.github.io\/clownjs/g,".")}}}),u={id:"Home"};function m(n,d,h,g,w,j){const e=s("readme-frame");return i(),r("div",u,[c(e,{readme:n.readme},null,8,["readme"])])}var f=a(t,[["render",m]]);export{f as default};

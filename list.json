@@ -1,0 +1,32 @@
+[
+  {
+    "compName": "animation-dialog",
+    "compZhName": "Vue动画弹窗组件",
+    "compDesc": "Vue动画弹窗组件"
+  },
+  {
+    "compName": "mouse-menu",
+    "compZhName": "右键菜单组件",
+    "compDesc": "右键菜单组件"
+  },
+  {
+    "compName": "resize",
+    "compZhName": "拖拽更改元素尺寸插件",
+    "compDesc": "拖拽更改元素尺寸插件"
+  },
+  {
+    "compName": "size-observer",
+    "compZhName": "监听盒子大小变化插件",
+    "compDesc": "监听盒子大小变化插件"
+  },
+  {
+    "compName": "yaml-edit",
+    "compZhName": "yaml文件编辑",
+    "compDesc": "yaml文件编辑"
+  },
+  {
+    "compName": "shared",
+    "compZhName": "公有包",
+    "compDesc": "公有包"
+  }
+]
