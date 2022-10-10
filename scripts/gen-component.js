@@ -39,9 +39,9 @@ const mdUpdate = ({ target, fileName, appendText, matchMode }) => {
     });
   });
 };
-// 读取 packages/list.json 并更新
+// 读取 public/list.json 并更新
 const listjsonUpdate = (meta) => {
-  const listFilePath = "./../packages/list.json";
+  const listFilePath = "./../public/list.json";
   const listFileTpl = fs.readFileSync(
     path.resolve(__dirname, listFilePath),
     "utf-8"
@@ -190,7 +190,7 @@ const fileBuild = (name) => {
     );
   }
 };
-const listFilePath = "../packages/list.json";
+const listFilePath = "../public/list.json";
 const RegxMap = {
   IS_COMP_NAME: /(-{0,2}[a-z][a-z0-9_])*/,
   IS_COMP_ZH_NAME:
