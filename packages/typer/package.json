@@ -1,0 +1,17 @@
+
+  {
+    "name": "@clownjs/typer",
+    "version": "0.0.1",
+    "description": "",
+    "author": "UniqueCrownClown",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
+    },
+    "homepage": "https://uniquecrownclown.github.io/clownjs",
+    "bugs": {
+      "url": "https://github.com/UniqueCrownClown/clownjs/issues"
+    }
+  }
+  

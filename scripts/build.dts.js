@@ -48,3 +48,7 @@ function compile(fileNames) {
   const program = ts.createProgram(fileNames, options, host);
   program.emit();
 }
+module.exports = {
+  walkDir,
+  compile
+}

@@ -23,6 +23,7 @@
     "build:dts": "node ./scripts/build.dts",
     "build:pkg": "npm run build:shared && npm run build:cjs && npm run build:es &&  npm run build:umd && npm run build:dts",
     "build:shared": "tsc packages/shared/index.ts --declaration --emitDeclarationOnly --outDir packages/shared/dist",
+    "build:single": "node ./scripts/build.single.js",
     "vue-to-md": "node ./scripts/vue-to-md.js",
     "example": "npm run vue-to-md && vite",
     "build": "npm run vue-to-md && vite build",

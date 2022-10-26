@@ -25,6 +25,9 @@ _A universal component packages of javascript plugins or tools_
 - **[@clownjs/resize](https://uniquecrownclown.github.io/clownjs/#/resize)**  
   通过拖拽更改元素尺寸插件
 
+- **[@clownjs/typer](https://uniquecrownclown.github.io/clownjs/#/typer)**  
+	打字机效果展示文本
+
 ---
 
 ## 开始使用
