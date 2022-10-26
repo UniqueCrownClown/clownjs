@@ -28,5 +28,10 @@
     "compName": "shared",
     "compZhName": "公有包",
     "compDesc": "公有包"
+  },
+  {
+    "compName": "typer",
+    "compZhName": "打字机",
+    "compDesc": "打字机效果展示文本"
   }
 ]
