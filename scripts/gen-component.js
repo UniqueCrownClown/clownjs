@@ -76,6 +76,10 @@ const fileBuild = (name) => {
       "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
     },
     "homepage": "https://uniquecrownclown.github.io/clownjs",
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
     "bugs": {
       "url": "https://github.com/UniqueCrownClown/clownjs/issues"
     }
