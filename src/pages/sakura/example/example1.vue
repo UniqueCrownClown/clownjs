@@ -16,21 +16,25 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, onMounted, onUnmounted } from "vue";
+import { defineComponent, ref, onMounted, onUnmounted, Ref } from "vue";
 import SakuraCanvas from "../../../../packages/sakura/index";
 export default defineComponent({
   setup() {
-    const sakuraContainer = ref(null);
-    let resizeTimer;
-    let sakura = null;
+    const sakuraContainer: Ref<HTMLCanvasElement | null> = ref(null);
+    let resizeTimer: NodeJS.Timeout;
+    let sakura: SakuraCanvas | null = null;
     const updateCanvasSize = () => {
-      let container = sakuraContainer.value;
-      const canvasWidth = container.clientWidth || 600;
-      const canvasHeight = container.clientHeight || 400;
-      sakura.setConfig({
-        canvasWidth,
-        canvasHeight,
-      });
+      const container: HTMLCanvasElement | null = sakuraContainer.value;
+      if (container !== null) {
+        const canvasWidth = container.clientWidth || 600;
+        const canvasHeight = container.clientHeight || 400;
+        if (sakura instanceof SakuraCanvas) {
+          sakura.setConfig({
+            canvasWidth,
+            canvasHeight,
+          });
+        }
+      }
     };
     const resizeHandler = () => {
       clearTimeout(resizeTimer);
@@ -38,23 +42,25 @@ export default defineComponent({
     };
 
     onMounted(() => {
-      const container = sakuraContainer.value;
-      const canvasWidth = container.clientWidth || 600;
-      const canvasHeight = container.clientHeight || 400;
-      const options = {
-        canvasClassName: "ec-sakura-canvas", // canvas classname
-        canvasWidth, // canvas width
-        canvasHeight, // canvas height
-      };
-      try {
-        sakura = new SakuraCanvas(options);
-        sakura.init(); // make <canvas> & petals
-        container.appendChild(sakura.getCanvas()); // insert canvas into document
-        sakura.animate(); // start animation
-      } catch (ex) {
-        console.log(ex.message);
+      const container: HTMLCanvasElement | null = sakuraContainer.value;
+      if (container !== null) {
+        const canvasWidth = container.clientWidth || 600;
+        const canvasHeight = container.clientHeight || 400;
+        const options = {
+          canvasClassName: "ec-sakura-canvas", // canvas classname
+          canvasWidth, // canvas width
+          canvasHeight, // canvas height
+        };
+        try {
+          sakura = new SakuraCanvas(options);
+          sakura.init(); // make <canvas> & petals
+          container.appendChild(sakura.getCanvas()); // insert canvas into document
+          sakura.animate(); // start animation
+        } catch (ex: any) {
+          console.log(ex.message);
+        }
+        window.addEventListener("resize", resizeHandler, false);
       }
-      window.addEventListener("resize", resizeHandler, false);
     });
     onUnmounted(() => {
       window.removeEventListener("resize", resizeHandler, false);

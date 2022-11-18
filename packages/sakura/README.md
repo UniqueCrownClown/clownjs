@@ -1,6 +1,6 @@
 # sakura
 
-花瓣飘零 canvas
+canvas的花瓣飘零效果
 
 ## Usage
 
