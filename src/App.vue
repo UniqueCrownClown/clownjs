@@ -35,7 +35,6 @@ h4 {
   background-clip: padding-box;
 }
 #clown {
-  text-shadow: 3px 3px #5b9df3;
   color: transparent;
   -webkit-text-stroke-color: #262626;
   -webkit-text-stroke-width: 2px;

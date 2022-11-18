@@ -32,6 +32,11 @@
   {
     "compName": "typer",
     "compZhName": "打字机",
-    "compDesc": "打字机效果展示文本"
+    "compDesc": "打字机展示文本效果"
+  },
+  {
+    "compName": "sakura",
+    "compZhName": "花瓣飘零",
+    "compDesc": "canvas的花瓣飘零效果"
   }
 ]

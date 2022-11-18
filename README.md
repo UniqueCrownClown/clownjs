@@ -26,7 +26,10 @@ _A universal component packages of javascript plugins or tools_
   通过拖拽更改元素尺寸插件
 
 - **[@clownjs/typer](https://uniquecrownclown.github.io/clownjs/#/typer)**  
-	打字机效果展示文本
+	打字机展示文本效果
+
+- **[@clownjs/sakura](https://uniquecrownclown.github.io/clownjs/#/sakura)**  
+	canvas的花瓣飘零效果
 
 ---
 

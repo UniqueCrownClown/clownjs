@@ -1,0 +1,21 @@
+
+  {
+    "name": "@clownjs/sakura",
+    "version": "0.0.1",
+    "description": "canvas的花瓣飘零效果",
+    "author": "UniqueCrownClown",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/UniqueCrownClown/clownjs.git"
+    },
+    "homepage": "https://uniquecrownclown.github.io/clownjs",
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "bugs": {
+      "url": "https://github.com/UniqueCrownClown/clownjs/issues"
+    }
+  }
+  

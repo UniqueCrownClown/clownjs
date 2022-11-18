@@ -57,24 +57,24 @@ module.exports = {
       )} mini: ${minSize}kb / gzip: ${gzippedSize}kb / compressedSize: ${compressedSize}kb`
     );
   },
-  walkPackageDirs: function (callback,dirName) {
+  walkPackageDirs: async function (callback,dirName) {
     const whiteList = ["shared"];
     if(dirName) {
       const dirPath = path.resolve("packages", dirName);
       const state = fs.statSync(dirPath);
       // 寻找包文件夹
       if (state.isDirectory() && !whiteList.includes(dirName)) {
-        callback(dirName);
+        await callback(dirName);
       }
       return;
     }
     const dirNames = fs.readdirSync("packages");
-    dirNames.forEach((dirName) => {
+    dirNames.forEach(async (dirName) => {
       const dirPath = path.resolve("packages", dirName);
       const state = fs.statSync(dirPath);
       // 寻找包文件夹
       if (state.isDirectory() && !whiteList.includes(dirName)) {
-        callback(dirName);
+        await callback(dirName);
       }
     });
   },
